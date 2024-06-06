@@ -16,7 +16,7 @@ def make_app(settings: Settings) -> FastAPI:
     app.state.settings = settings
 
     # Додаємо вивід імені
-    print("Hello, World! - Serhii Bohdan IM-24")
+    print("Hello, World! - Serhii Bohdan IM-24")  
 
 
     if settings.debug:
